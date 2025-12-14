@@ -1,0 +1,37 @@
+Phishing Sample 
+
+Return-Path: <security-alert@micros0ft-support.com>
+Received: from mail.micros0ft-support.com (185.234.219.87)
+    by mx.google.com with ESMTP id x12si1234567qke.123.2025.06.14.08.21.34
+    for <user@example.com>;
+    Fri, 14 Jun 2025 08:21:34 -0700 (PDT)
+Authentication-Results: mx.google.com;
+    spf=fail (google.com: domain of micros0ft-support.com does not designate 185.234.219.87 as permitted sender)
+    dkim=none
+    dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=micros0ft-support.com
+From: Microsoft Security Team <security-alert@micros0ft-support.com>
+To: user@example.com
+Subject: Urgent Action Required: Unusual Sign-in Detected
+Date: Fri, 14 Jun 2025 15:21:30 +0000
+Message-ID: <20250614152130.98432@mail.micros0ft-support.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+
+Dear User,
+
+We detected an unusual sign-in attempt on your Microsoft account from an unrecognized device.
+
+Location: Kyiv, Ukraine  
+IP Address: 185.234.219.87  
+Time: 14 June 2025, 02:17 AM
+
+To prevent suspension of your account, please verify your identity immediately by clicking the link below:
+
+https://login-microsoft-secure[.]com/verify-session
+
+Failure to verify within 2 hours will result in temporary account suspension.
+
+Thank you for helping us keep your account secure.
+
+Microsoft Security Team
+
